@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUMAYA</title>
+    <!--Estilos de Bootstrap y propios-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!--Nav mobile-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center">
+                    <a class="navbar-brand" href="#">
+                        <img src="IMAGENES/Logo/LogoHumaya100x100.png" alt="" width="60" height="60" class="d-inline-block align-text-top">
+                        <a class="navbar-brand colorTituloLogo" href="#">HUMAYA</a>
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#productos">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#locales">Locales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#contacto">Contacto</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    
+    <main>
+        <!--Portada-->
+        <section id="home">
+            <div>
+                <h1>DULCES DEL ALMA</h1>
+                <p>Los productos HUMAYA son elaborados desde hace mas de 50 años fiel a las tradiciones familiares y sabores caseros, acompañandote en los momentos mas importantes de la vida</p>
+                <a class="btn btn-secondary disabled" role="button" aria-disabled="true">CONOCENOS</a>
+            </div>
+        </section>
+
+        <!--Calidad--> 
+        <section id="calidad">
+            <div class="calidad">
+                
+                <h3>La mejor calidad para vos</h3>
+                
+                <div class="iconos">
+                    <div>
+                        <div>
+                            <img src="./IMAGENES/Iconos/orga.PNG" alt="">
+                        </div>
+                        <div>
+                            <p>100% ORGÁNICO</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <img src="./IMAGENES/Iconos/sintacc.PNG" alt="">
+                        </div>
+                        <div>
+                            <p>SIN TACC</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <img src="./IMAGENES/Iconos/sinconservantes.png" alt="">
+                        </div>
+                        <div>
+                            <p>SIN CONSERVANTES</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--Productos-->
+        <section id="productos">
+            <div>
+                <h2>Productos</h2>
+                <div>
+                    <div>
+                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./IMAGENES/Productos/Producto1.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./IMAGENES/Productos/Producto2.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./IMAGENES/Productos/Producto3.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./IMAGENES/Productos/Producto4.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previo</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Próximo</span>
+                            </button>
+                          </div>
+                    </div>
+                    <div>
+                        <h3>DULCE DE LECHE TRADICIONAL</h3>
+                        <p>Elaboracion artesanal de principio a fin, con un sabor intenso, receta tradicional,</p>
+                        <p>Presentacion en frasco de vidrio de 580gr.</p>
+                        <a href="">Info Nutricional</a>
+                        <a href="#contacto">Comprar</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="./IMAGENES/Productos/Producto1.png" alt="sinAzucar">
+                    </div>
+                    <div>
+                        <h3>DULCE DE LECHE SIN AZUCAR</h3>
+                        <p>Elaboración artesanal para cuidar la silueta sin renunciar a nada, endulzado naturalmente con stevia</p>
+                        <p>Presentacion en frasco de vidrio de 580gr. y 280gr.</p>
+                        <a href="">Info Nutricional</a>
+                        <a href="#contacto">Comprar</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="./IMAGENES/Productos/Producto3.png" alt="choconutt">
+                    </div>
+                    <div>
+                        <h3>DULCE CHOCONUTT</h3>
+                        <p>Elaboración artesanal para el capricho dulce, combinación de dulce de leche, chocolate y pasta de avellanas. Una delicia única.</p>
+                        <p>Presentacion en frasco de vidrio de 280gr.</p>
+                        <a href="">Info Nutricional</a>
+                        <a href="#contacto">Comprar</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="./IMAGENES/Productos/Producto4b.png" alt="alfajores">
+                    </div>
+                    <div>
+                        <h3>ALFAJORES DE MAICENA</h3>
+                        <p>Alfajores de dulce con coco rallado, relleno con 2cm de pura dulzura. Pudiendo elegir entre dulce de leche tradicional, ligth o choconutt.</p>
+                        <p>Presentacion en caja de 6 y 12 alfajores.</p>
+                        <a href="">Info Nutricional</a>
+                        <a href="#contacto">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--Quienes Somos-->
+        <section id="quienesSomos">
+            <div>
+                <h2>Quienes Somos</h2>
+                
+                <div>
+                    <div><!--CardQuienesSomos-->
+                        <div>
+                            <img src="" alt="">
+                        </div>
+                        <div>
+                            <p>Desde 1971, somos tradición familiar.
+                                Nuestra historia nace en familia, con todos los que hicieron y hacen hoy posible la existencia de HUMAYA. Nuestra gente, nuestros colaboradores y todos aquellos que nos acompañan son parte de esta gran historia que comenzó hace más de 50 años y que hoy en día nos ha convertido orgullosamente en el principal elaborador de Dulce de Leche de Argentina, proveyendo a las más prestigiosas empresas del mercado alfajorero, heladero, repostero y miles de emprendedores que usan nuestros productos en el corazón de sus elaboraciones.
+                                Todo comenzó en 1971, cuando Joaquín Rodríguez un joven inmigrante español llegó a la Argentina y en poco tiempo se convirtió en un emprendedor con un reparto de dulce de leche, desde entonces, inició la tradición familiar y su dedicación fue ejemplo para su hijo mayor Ernesto Luis Rodríguez, quien continúo trabajando arduamente para el crecimiento de la empresa y en el año 1992, fundó la planta industrial en el pueblo de Bartolomé Bavio en el Partido de Magdalena, Provincia de Buenos Aires.
+                                Con el tiempo, la familia siguió creciendo y el ímpetu de Ernesto Luis se transmitió de generación en generación e incentivó a sus hijos, Hugo y Ernesto, para acompañarlo y seguir el compromiso de excelencia. En la actualidad, la compañía es dirigida por Ernesto Rodriguez e hijos con la misma mística y pasión de hacer las cosas bien.
+                                HUMAYA, está conformada por cientos de familias que con orgullo y gran compromiso, reafirman el horizonte a perseguir y los valores primordiales que nos definen.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Contactanos-->
+        <section id="contacto">
+            <div>
+                <h2>Contactanos</h2>
+                
+                <div>
+                    <div><!--CardContacto-->
+                        <div>
+                            <img src="./IMAGENES/Productos/Producto3.png" alt="">
+                        </div>
+                        <div id="formulario">
+                            <div>
+                                <p>Dejanos tu consulta y nuestro personal se pondra en contacto a la brevedad</p>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">NOMBRE</label>
+                                <input type="text" class="form-control" id="Nombre" placeholder="" backgr>
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">E-MAIL</label>
+                                <input type="email" class="form-control" id="email" placeholder="">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">CONSULTA</label>
+                                <textarea class="form-control" id="consulta" rows="3"></textarea>
+                                
+                                <button type="submit">Enviar</button>
+                                <button type="reset">Borrar</button>
+
+                              </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--Locales-->
+        <section id="locales">
+            <div>
+                <h2>Locales</h2>
+                
+                <div>
+                    <div>
+                        <div>
+                            <img src="./IMAGENES/Locales/Nogoya.jpg" alt="">
+                        </div>
+                        <div>
+                            <h5>Villa del Parque</h5>
+                            <p>Nogoya 30056</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <img src="./IMAGENES/Locales/Rivadavia.jpg" alt="">
+                        </div>
+                        <div>
+                            <h5>Caballito</h5>
+                            <p>Rivadavia 5090</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <img src="./IMAGENES/Locales/Honduras.jpg" alt="">
+                        </div>
+                        <div>
+                            <h5>Palermo</h5>
+                            <p>Honduras 5078</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        
+        <!--Recetas-->
+        <section id="recetas">
+            <div>
+                <h2>Recetas</h2>
+                
+                <div>
+                    <div><!--Receta1-->
+                        <div>
+                            <img src="./IMAGENES/Productos/conitos.PNG" alt="conitos">
+                        </div>
+                        <div>
+                            <h3>Conitos</h3>
+                            <p>Una deliciosa opción para acompañar las meriendas, ese antojo de media noche o compartir con amigos.</p>
+                            <a href="">Preparacion</a>
+                        </div>
+                    </div>
+
+                    <div><!--Receta2-->
+                        <div>
+                            <img src="./IMAGENES/Productos/pepas.PNG" alt="pepas">
+                        </div>
+                        <div>
+                            <h3>Pepas</h3>
+                            <p>Las galletitas mas tiernas y ricas, rellenas de dulce de leche, ideales para el mate y la hora del té.</p>
+                            <a href="">Preparacion</a>
+                        </div>
+                    </div>
+
+                    <div><!--Receta3-->
+                        <div>
+                            <img src="./IMAGENES/Productos/tortanuitt.PNG" alt="torta">
+                        </div>
+                        <div>
+                            <h3>Torta Nutt</h3>
+                            <p>La torta de tres capas más sabrosa del mundo, combina una base de vainilla, dulce de leche y cubierta de choconutt.</p>
+                            <a href="">Preparacion</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+
+    <footer id="footer">
+        <section class="container">
+            <section class="row">
+                <section class="col-2 logo">
+                    <a href=""><img src="./IMAGENES/Logo/LogoHumaya100x100.png" id="logoFooter"></a>
+                </section>
+                <section class="col-sm-12 col-md-3">
+                    <h6 class="txt-dark-brown">Menú</h6>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#locales">Locales</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </section>
+                <section class="col-sm-12 col-md-3">
+                    <h6 class="txt-dark-brown">Navegación</h6>
+                    <ul>
+                        <li><a href="">Preguntas frecuentes</a></li>
+                        <li><a href="">Distribuidores</a></li>
+                        <li><a href="">Prensa</a></li>
+                        <li><a href="#recetas">Recetas exclusivas</a></li>
+                    </ul>
+                </section>
+                <section class="col-sm-12 col-md-2">
+                    <h6 class="txt-dark-brown">Redes</h6>
+                        <ul>
+                            <li><a href="#"><i class="txt-dark-brown"></i><img src="./IMAGENES/Iconos/tiktok.png" alt="" id="iconos"></a></li>
+                            <li><a href="#"><i class="txt-dark-brown"></i><img src="./IMAGENES/Iconos/facebookb.png" alt="" id="iconos"></a></li>
+                            <li><a href="#"><i class="txt-dark-brown"></i><img src="./IMAGENES/Iconos/insta.png" alt="" id="iconos"></a></li>
+                        </ul>
+                </section>
+                <section class="col-sm-12 col-md-2">
+                    <h6 class="txt-dark-brown">Ubicación</h6>
+                    <p>Moreno 1831, CABA</p>
+                </section>
+            </section>
+        </section>
+    </footer>
+
+<!--Scripts de Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
